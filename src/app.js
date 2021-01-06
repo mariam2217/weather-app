@@ -23,21 +23,21 @@ app.use(express.static(publicDirPath));
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Joe Jonson',
+        name: 'Mariam Harutyunyan',
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About',
-        name: 'Joe Jonson',
+        name: 'Mariam Harutyunyan',
     })
 });
 
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        name: 'Joe Jonson',
+        name: 'Mariam Harutyunyan',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     })
 });
@@ -81,7 +81,7 @@ app.get('/products', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404error', {
         title: '404',
-        name: 'Joe Jonson',
+        name: 'Mariam Harutyunyan',
         errorMessage: 'Help article not found'
     });
 });
@@ -89,7 +89,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404error', {
         title: '404',
-        name: 'Joe Jonson',
+        name: 'Mariam Harutyunyan',
         errorMessage: 'Page not found'
     });
 });

@@ -44,7 +44,7 @@ header a {
 
 input {
     border: 1px solid #cccccc;
-    padding: git px;
+    padding: 8px;
 }
 
 button {
@@ -52,5 +52,5 @@ button {
     border: 1px solid #888888;
     background: #888888;
     color: white;
-    padding: 5px;
+    padding: 8px;
 }
